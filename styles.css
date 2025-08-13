@@ -1,0 +1,13 @@
+
+body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto;margin:0;background:linear-gradient(180deg,#071021,#0b1630);color:#e6eef6}
+.container{max-width:1000px;margin:24px auto;padding:24px}
+.header{display:flex;justify-content:space-between;align-items:center}
+.brand .name{font-weight:800}
+.hero{display:grid;grid-template-columns:1fr 360px;gap:20px;align-items:start;background:linear-gradient(180deg,rgba(139,92,246,0.06),rgba(6,182,212,0.03));padding:20px;border-radius:12px}
+.profile img{width:140px;height:140px;border-radius:999px;object-fit:cover;border:3px solid rgba(255,255,255,0.04)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:12px}
+.card{background:#0b1630;padding:8px;border-radius:10px;overflow:hidden;text-align:left}
+.card img{width:100%;height:140px;object-fit:cover;border-radius:8px}
+.btn{display:inline-block;margin-top:8px;padding:8px 12px;border-radius:8px;background:linear-gradient(90deg,#06b6d4,#8b5cf6);color:#071021;text-decoration:none;font-weight:700}
+a{color:#9fb4d8}
+footer{margin-top:24px;text-align:center;color:#94a3b8}
